@@ -40,8 +40,10 @@
       font-size: 18px;
       font-weight: 400;
       font-style: normal;
-      color: black;
-      background-color: #daec33;
+      color: #f8ffb5;
+      background-color: #3122fa;
+      border-top-left-radius: 8px;
+      border-bottom-right-radius: 8px;      
     }
 
 
@@ -51,7 +53,15 @@
       font-size: 24px;
     }
 
-    .icon:hover {
+    .icon-bg {
+      background-color: #3122fa;
+      color: #f8ffb5;
+      transition: color 0.3s ease-in-out;
+      font-size: 24px;
+    }
+
+    .icon:hover, mark{
+ 
       color: #fd1749;
 
     }
@@ -59,6 +69,7 @@
     .bg-daec33 {
       background-color: #f8ffb5;
     }
+
   </style>
 
 </head>
@@ -75,11 +86,11 @@
         </div>
 
         <p>I love to <a class="link" href="https://www.behance.net/kardoss">design</a>, and when I met with <span
-          class="badge bg-secondary rounded-pill">blockchain</span> I decided to <strong>code</strong>. </p>
+          class="badge icon-bg rounded-pill">blockchain</span> I decided to <strong>code</strong>. </p>
 
               <!--profile from linkedin-->
       </div>
-      <div class="col-md-3 my-5">
+      <div class="col-4 my-5">
         <img
           src="https://media.licdn.com/dms/image/D4E03AQGnXpdgaEPiFQ/profile-displayphoto-shrink_800_800/0/1682593144725?e=1720656000&v=beta&t=Kmi_6S3W5gxYtEfFpa_kyIEhCZGtI3IrKa9HSl27eI8"
           alt="Sandor Kardos profile photo" class="rounded-circle img-fluid">
@@ -90,9 +101,6 @@
       <div class="row">
         
       </div>
-
-
-
 
       <h2>About me</h2>
       <p>I am super passionate about creating innovative and functional <mark>projects</mark> that solve real-world
@@ -108,28 +116,25 @@
           <a href="https://github.com/sanyi8"><i class="m-2 icon fa-brands fa-github"></i></a>
         </div>
 
-        <div class="col-md-4 rounded shadow p-4 m-3">
-          <h2>What I'm working on</h2>
+        <div class="icon-bg col-md-7 rounded shadow p-4 m-3 text-left link-hover">
+          <a href="https://linktr.ee/kardoss" style="color: #f8ffb5; text-decoration: none;">       
+          <h2>What I'm working on:</h2>
           <p>I am into web3 dapps, blockchain technology, and now Ai.</p>
+          </a> 
         </div>
 
       </div>
 
-
-      <p>If you are interested in checking out my works, visit my Github</p>
+      
+      <p>If you are interested in checking out my works, visit my <a class="link" href="https://github.com/sanyi8">Github</a></p>
       
       <p>I am constantly looking for new challenges and opportunities to collaborate with other developers and
-      creatives. Further questions or just to contact me!
+      creatives. Further questions or just to <a class="link" href="mailto:kardos.sandor@gmail.com">contact me</a>!
       </p>
-
-      <h2>Recent projects</h2>
-
-      <p>usecase of the blockchain <a class="link" href="https://kriptoaktiv.com">kriptoaktiv</a> </p>
 
       <p>Thank you for visiting my website and I hope to hear from you soon!</p>
 
     </div>
-  </div>
   </div>
 
 
