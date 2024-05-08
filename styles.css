@@ -1,0 +1,52 @@
+body {
+    font-size: 18px;
+
+  }
+
+  h1,
+  h2 {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  p {
+    font-family: "Changa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .link {
+    font-family: "chakra petch", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #f8ffb5;
+    background-color: #3122fa;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;      
+  }
+
+
+  .icon {
+    color: #3122fa;
+    transition: color 0.3s ease-in-out;
+    font-size: 24px;
+  }
+
+  .icon-bg {
+    background-color: #3122fa;
+    color: #f8ffb5;
+    transition: color 0.3s ease-in-out;
+    font-size: 24px;
+  }
+
+  .icon:hover, mark{
+
+    color: #fd1749;
+
+  }
+
+  .bg-daec33 {
+    background-color: #f8ffb5;
+  }
